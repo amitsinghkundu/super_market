@@ -1,11 +1,12 @@
 //***************************************************************
 //                   HEADER FILE USED IN PROJECT
 //****************************************************************
-
+#include<iostream>
 #include<conio.h>
 #include<stdio.h>
 #include<process.h>
 #include<fstream.h>
+using namespace std;
 
 //***************************************************************
 //                   CLASS USED IN PROJECT
@@ -281,8 +282,7 @@ void intro()
  cout<<"BILLING";
  gotoxy(35,9);
  cout<<"PROJECT";
- cout<<"\n\n\nMADE BY : DHIRAJ, KRISHNAKANT, YOGESH KUMAR ";
- cout<<"\n\n\nSCHOOL  : KENDRIYA VIDHYALAYA N.A.L. SCHOOL";
+ cout<<"\n\n\nMADE BY :  Amit Kundu";
  getch();
 
 }
